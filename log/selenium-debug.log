@@ -1,0 +1,26 @@
+15:12:33.631 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+15:12:33.632 INFO - Launching a standalone Selenium Server
+2020-02-13 15:12:33.718:INFO::main: Logging initialized @328ms to org.seleniumhq.jetty9.util.log.StdErrLog
+15:12:33.752 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+15:12:33.766 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+15:12:33.768 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+15:12:33.768 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:12:33.768 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+15:12:33.769 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+15:12:33.770 INFO - Driver class not found: org.openqa.selenium.phantomjs.PhantomJSDriver
+15:12:33.800 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities {browserName: internet explorer, ensureCleanSession: true, platform: WINDOWS, version: } does not match the current platform MAC
+15:12:33.800 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: } does not match the current platform MAC
+15:12:33.835 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+15:12:33.836 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+15:12:33.836 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+15:12:33.837 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+15:12:33.837 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+15:12:33.845 INFO - Using the passthrough mode handler
+2020-02-13 15:12:33.870:INFO:osjs.Server:main: jetty-9.4.7.v20170914
+2020-02-13 15:12:33.892:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@42eca56e{/,null,STARTING} has uncovered http methods for path: /
+2020-02-13 15:12:33.897:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@42eca56e{/,null,AVAILABLE}
+2020-02-13 15:12:33.924:INFO:osjs.AbstractConnector:main: Started ServerConnector@47db50c5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2020-02-13 15:12:33.925:INFO:osjs.Server:main: Started @536ms
+15:12:33.925 INFO - Selenium Server is up and running
