@@ -5,9 +5,12 @@
   "main": "nightwatch.js",
   "dependencies": {
     "eslint": "^4.13.0",
-    "nightwatch": "^0.9.19"
+    "nightwatch": "^0.9.19",
+    "request": "^2.88.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "xlsx": "^0.15.5"
+  },
   "scripts": {
     "test": "node nightwatch -e chrome"
   },
